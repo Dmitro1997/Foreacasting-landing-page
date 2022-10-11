@@ -69,3 +69,10 @@ code {
 .bg-internatinal-family{
   background: linear-gradient(88.61deg, #C691DF 2.38%, #CBB3DE 48.85%, #9BB7E1 98.32%);
 }
+
+.bg-provides-img{
+  background-image: url('./assets/3DImages/CoinBox.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}

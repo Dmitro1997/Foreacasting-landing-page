@@ -17,8 +17,8 @@ function Body() {
             <InternationalFamily></InternationalFamily>
             <AboutUs></AboutUs>
             {/* <WhereWeGetData></WhereWeGetData>
-            <Economizes></Economizes>
-            <Provides></Provides> */}
+            <Economizes></Economizes> */}
+            <Provides></Provides>
         </div>
     )
 }
