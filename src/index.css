@@ -54,3 +54,18 @@ code {
   background-size: contain;
   background-position: center;
 }
+
+.bg-company-img{
+  background-image: url('./assets/3DImages/GoldCoin.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.bg-grey-card{
+  background: linear-gradient(111.49deg, rgba(255, 255, 255, 0.4) -8.95%, rgba(255, 255, 255, 0.01) 114%);
+  backdrop-filter: blur(25px);
+}
+.bg-internatinal-family{
+  background: linear-gradient(88.61deg, #C691DF 2.38%, #CBB3DE 48.85%, #9BB7E1 98.32%);
+}
