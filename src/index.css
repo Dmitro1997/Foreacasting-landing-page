@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+.contact-us{
+  background: linear-gradient(95.13deg, #2081E2 0.71%, #AE91DF 69.59%);
+  border: 1px solid #D7CBE0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 60px;
+}
+
+.subscribe-button{
+  background: linear-gradient(95.13deg, #2081E2 0.71%, #AE91DF 69.59%);
+  border-radius: 4px;
+}
+
+.hero-title{
+  background: linear-gradient(95.13deg, #2081E2 0.71%, #AE91DF 69.59%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.hero-image{
+  background-image: url('./assets/3DImages/HeroImage.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bg-gold-bricks{
+  background-image: url('./assets/3DImages/GoldBricks.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.bg-buy{
+  background-image: url('./assets/3DImages/Buy.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
