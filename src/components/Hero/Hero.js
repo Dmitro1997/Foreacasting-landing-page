@@ -32,7 +32,7 @@ function Hero() {
                         <div className="float-left self-center pl-3">
                             <input type="email" className="bg-transparent w-48 sm:w-64" placeholder="Enter Email Address"></input>
                         </div>
-                        <div className="float-right self-center">
+                        <div className="float-right self-center pl-1">
                             <button className="contact-us px-3 py-1">
                                 SUBSCRIBE
                             </button>

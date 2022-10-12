@@ -54,7 +54,7 @@ function FooterBar() {
                         </div>
                     </div>
                 </div>
-                <div className="self-center w-min-[300px] md:w-1/5 pl-10">
+                <div className="self-center mt-5 sm:mt-0 w-min-[300px] md:w-1/5 pl-10">
                     <div className="mb-1">
                         Home
                     </div>
