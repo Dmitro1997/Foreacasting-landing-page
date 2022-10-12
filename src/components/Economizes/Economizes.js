@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Economizes() {
     return (
-        <div className="bg-[#030A11] text-center py-10 px-5">
+        <div className="bg-[#030A11] text-center py-20 px-5">
             <div className="text-[#AE91DF] text-[40px] font-bold pb-5">
                 IamFuture economizes
             </div>

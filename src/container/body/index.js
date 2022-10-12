@@ -17,7 +17,7 @@ function Body() {
             <AboutCompany></AboutCompany>
             <InternationalFamily></InternationalFamily>
             <AboutUs></AboutUs>
-            {/* <WhereWeGetData></WhereWeGetData> */}
+            <WhereWeGetData></WhereWeGetData>
             <OurGoals></OurGoals>
             <Economizes></Economizes>
             <Provides></Provides>

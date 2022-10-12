@@ -3,7 +3,7 @@ import buy from '../../assets/3DImages/Buy.png'
 
 function WhatToBuy() {
     return (
-        <div className="bg-[#030A11] text-white grid grid-rows-1 grid-cols-3 gap-4">
+        <div className="bg-[#030A11] text-white grid grid-rows-1 grid-cols-3 gap-4 py-10">
             <div className="self-center bg-gold-bricks w-full h-64">
             </div>
             <div className="self-center text-center">

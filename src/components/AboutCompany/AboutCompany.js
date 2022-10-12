@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function AboutCompany() {
     return(
-        <div className="bg-[#030A11] bg-about-company pt-10">
+        <div className="bg-[#030A11] bg-about-company py-20">
             <div className=" grid grid-cols-5 text-white">
                 <div className="col-span-3 pl-20 text-lg">
                     <span className="text-[#AE91DF]">IamFuture</span> is the unique concept of intuitive trading recommendation system invented in Monaco by <span className="text-[#AE91DF]">Maya Bernaia</span> www.IamFuture.life and developed by <span className="text-[#AE91DF]">Mr. Omar Hammemi</span>.

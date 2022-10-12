@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Provides() {
     return (
-        <div className="bg-internatinal-family pt-10">
+        <div className="bg-internatinal-family py-20">
             <div className="grid grid-cols-5 mt-8">
                 <div className="col-span-3 pl-48">
                     <div className="mb-3 col-span-3 pl-20 text-[38px] text-[#2081E2] text-center font-bold">

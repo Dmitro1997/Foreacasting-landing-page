@@ -8,8 +8,8 @@ import Omar from '../../assets/Photos/Omar.png';
 
 function AboutUs() {
     return (
-        <div className="bg-[#030A11] text-center pt-10 pb-8">
-            <div className="text-[#AE91DF] text-[40px] font-bold mb-3">
+        <div className="bg-[#030A11] text-center py-20">
+            <div className="text-[#AE91DF] text-[40px] font-bold mb-10">
                 We Are
             </div>
             <div className="grid grid-cols-4 px-10 gap-4 mb-5">

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function InternationalFamily() {
     return (
-        <div className="bg-internatinal-family pt-10 pb-8 text-center">
+        <div className="bg-internatinal-family py-20 text-center">
             <div className="text-[#2081E2] text-[40px] font-bold mb-3">
                 IamFuture International Family
             </div>
