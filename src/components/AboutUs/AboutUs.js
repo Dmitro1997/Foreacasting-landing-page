@@ -12,7 +12,7 @@ function AboutUs() {
             <div className="text-[#AE91DF] text-xl md:text-[40px] font-bold mb-10">
                 We Are
             </div>
-            <div className="grid grid-cols-1 px-20 sm:grid-cols-2 md:grid-cols-4 sm:px-10 gap-4 mb-5">
+            <div className="grid grid-cols-1 px-5 sm:grid-cols-2 md:grid-cols-4 sm:px-10 gap-4 mb-5">
                 <div className="bg-grey-card rounded-md inline-block">
                     <div className="">
                         <img src={defaultPhoto} className="w-full px-6 py-5 rounded-[35px]"></img>
@@ -66,7 +66,7 @@ function AboutUs() {
                     </div>
                 </div>
             </div>
-            <div className="grid grid-cols-1 px-20 sm:grid-cols-2 md:grid-cols-4 sm:px-10 gap-4">
+            <div className="grid grid-cols-1 px-5 sm:grid-cols-2 md:grid-cols-4 sm:px-10 gap-4">
                 <div className="bg-grey-card rounded-md inline-block">
                     <div className="">
                         <img src={Frederic} className="w-full px-6 py-5 rounded-[35px]"></img>

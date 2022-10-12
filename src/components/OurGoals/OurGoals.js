@@ -9,7 +9,7 @@ function OurGoals() {
                 Our Goals
             </div>
             <div className="flex justify-center px-10 gap-5 flex-wrap mb-5">
-                <div className="p-7 rounded-lg min-w-[300px] lg:min-w-[20%] max-w-[20%] border">
+                <div className="p-7 rounded-lg min-w-[200px] sm:min-w-[300px] lg:min-w-[20%] max-w-[20%] border">
                     <div className="rounded-md bg-[#2081E2] w-7 h-7 self-center text-center mb-4">
                         <FontAwesomeIcon icon={faBook}/>
                     </div>
@@ -17,7 +17,7 @@ function OurGoals() {
                         <b>Find</b> them while they are small!
                     </div>
                 </div>
-                <div className="p-7 rounded-lg min-w-[300px] lg:min-w-[20%] max-w-[20%] border">
+                <div className="p-7 rounded-lg min-w-[200px] sm:min-w-[300px] lg:min-w-[20%] max-w-[20%] border">
                     <div className="rounded-md bg-[#2081E2] w-7 h-7 self-center text-center mb-4">
                         <FontAwesomeIcon icon={faQuestionCircle}/>
                     </div>
@@ -25,7 +25,7 @@ function OurGoals() {
                         <b>Minimize</b> risks of guessing.
                     </div>
                 </div>
-                <div className="p-7 rounded-lg min-w-[300px] lg:min-w-[20%] max-w-[20%] border">
+                <div className="p-7 rounded-lg min-w-[200px] sm:min-w-[300px] lg:min-w-[20%] max-w-[20%] border">
                     <div className="rounded-md bg-[#2081E2] w-7 h-7 self-center text-center mb-4">
                         <FontAwesomeIcon icon={faQuestion}/>
                     </div>
@@ -33,7 +33,7 @@ function OurGoals() {
                         Avoid <b>insecurity.</b>
                     </div>
                 </div>
-                <div className="p-7 rounded-lg min-w-[300px] lg:min-w-[20%] max-w-[20%] border">
+                <div className="p-7 rounded-lg min-w-[200px] sm:min-w-[300px] lg:min-w-[20%] max-w-[20%] border">
                     <div className="rounded-md bg-[#2081E2] w-7 h-7 self-center text-center mb-4">
                         <FontAwesomeIcon icon={faSearch}/>
                     </div>
@@ -43,7 +43,7 @@ function OurGoals() {
                 </div>
             </div>
             <div className="flex justify-center px-10 gap-5 flex-wrap">
-                <div className="p-7 rounded-lg min-w-[300px] lg:min-w-[20%] max-w-[20%] border">
+                <div className="p-7 rounded-lg min-w-[200px] sm:min-w-[300px] lg:min-w-[20%] max-w-[20%] border">
                     <div className="rounded-md bg-[#2081E2] w-7 h-7 self-center text-center mb-4">
                         <FontAwesomeIcon icon={faChartColumn}/>
                     </div>
@@ -51,7 +51,7 @@ function OurGoals() {
                         Track the <b>trends.</b>
                     </div>
                 </div>
-                <div className="p-7 rounded-lg min-w-[300px] lg:min-w-[20%] max-w-[20%] border">
+                <div className="p-7 rounded-lg min-w-[200px] sm:min-w-[300px] lg:min-w-[20%] max-w-[20%] border">
                     <div className="rounded-md bg-[#2081E2] w-7 h-7 self-center text-center mb-4">
                         <FontAwesomeIcon icon={faChartLine}/>
                     </div>
@@ -59,7 +59,7 @@ function OurGoals() {
                         Track the <b>rise.</b>
                     </div>
                 </div>
-                <div className="p-7 rounded-lg min-w-[300px] lg:min-w-[20%] max-w-[20%] border">
+                <div className="p-7 rounded-lg min-w-[200px] sm:min-w-[300px] lg:min-w-[20%] max-w-[20%] border">
                     <div className="rounded-md bg-[#2081E2] w-7 h-7 self-center text-center mb-4">
                         <FontAwesomeIcon icon={faEye}/>
                     </div>
@@ -67,7 +67,7 @@ function OurGoals() {
                         <b>Foresee</b> bullish trend.
                     </div>
                 </div>
-                <div className="p-7 rounded-lg min-w-[300px] lg:min-w-[20%] max-w-[20%] border">
+                <div className="p-7 rounded-lg min-w-[200px] sm:min-w-[300px] lg:min-w-[20%] max-w-[20%] border">
                     <div className="rounded-md bg-[#2081E2] w-7 h-7 self-center text-center mb-4">
                         <FontAwesomeIcon icon={faChartArea}/>
                     </div>

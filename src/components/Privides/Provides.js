@@ -15,7 +15,7 @@ function Provides() {
                         Opportunities:
                     </div>
                     <div className="text-md flex flex-col  md:text-lg">
-                        <div className="w-5/6 h-24 px-10 mb-5 bg-grey-card rounded-lg border self-center flex">
+                        <div className="w-5/6 min-h-[80px] sm:h-24 px-10 mb-5 bg-grey-card rounded-lg border self-center flex">
                             <div className="self-center pr-5">
                                 <div className="rounded bg-[#2081E2] w-8 h-8 self-center text-center">
                                     <FontAwesomeIcon icon={faWarning}/>
@@ -25,7 +25,7 @@ function Provides() {
                                 Possibility to set alerts by user.
                             </div>
                         </div>
-                        <div className="w-5/6 h-24 px-10 mb-5 bg-grey-card rounded-lg border self-center flex">
+                        <div className="w-5/6 min-h-[80px] sm:h-24 px-10 mb-5 bg-grey-card rounded-lg border self-center flex">
                             <div className="self-center pr-5">
                                 <div className="rounded bg-[#2081E2] w-8 h-8 self-center text-center">
                                     <FontAwesomeIcon icon={faUserFriends}/>
@@ -36,7 +36,7 @@ function Provides() {
                                 Always search alternative source.
                             </div>
                         </div>
-                        <div className="w-5/6 h-24 px-10 mb-5 bg-grey-card rounded-lg border self-center flex">
+                        <div className="w-5/6 min-h-[80px] sm:h-24 px-10 mb-5 bg-grey-card rounded-lg border self-center flex">
                             <div className="self-center pr-5">
                                 <div className="rounded bg-[#2081E2] w-8 h-8 self-center text-center">
                                     <FontAwesomeIcon icon={faChartColumn}/>
@@ -46,7 +46,7 @@ function Provides() {
                                 Always provides good opportunity to invest.
                             </div>
                         </div>
-                        <div className="w-5/6 h-24 px-10 mb-5 bg-grey-card rounded-lg border self-center flex">
+                        <div className="w-5/6 min-h-[80px] sm:h-24 px-10 mb-5 bg-grey-card rounded-lg border self-center flex">
                             <div className="self-center pr-5">
                                 <div className="rounded bg-[#2081E2] w-8 h-8 self-center text-center">
                                     <FontAwesomeIcon icon={faChartLine}/>

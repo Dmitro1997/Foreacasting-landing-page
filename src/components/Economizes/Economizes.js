@@ -9,7 +9,7 @@ function Economizes() {
                 IamFuture economizes
             </div>
             <div className="flex justify-center gap-6 flex-wrap">
-                <div className="bg-grey-card p-7 rounded-lg min-w-[300px] lg:min-w-[20%]">
+                <div className="bg-grey-card p-7 rounded-lg min-w-[230px] sm:min-w-[300px] lg:min-w-[20%]">
                     <div className="rounded-md bg-[#AE91DF] w-7 h-7 self-center text-center mb-4">
                         <FontAwesomeIcon icon={faBook}/>
                     </div>
@@ -17,7 +17,7 @@ function Economizes() {
                         Your reading.
                     </div>
                 </div>
-                <div className="bg-grey-card p-7 rounded-lg min-w-[300px] lg:min-w-[20%]">
+                <div className="bg-grey-card p-7 rounded-lg min-w-[230px] sm:min-w-[300px] lg:min-w-[20%]">
                     <div className="rounded-md bg-[#AE91DF] w-7 h-7 self-center text-center mb-4">
                         <FontAwesomeIcon icon={faBrain}/>
                     </div>
@@ -25,7 +25,7 @@ function Economizes() {
                         Analyzing effort.
                     </div>
                 </div>
-                <div className="bg-grey-card p-7 rounded-lg min-w-[300px] lg:min-w-[20%]">
+                <div className="bg-grey-card p-7 rounded-lg min-w-[230px] sm:min-w-[300px] lg:min-w-[20%]">
                     <div className="rounded-md bg-[#AE91DF] w-7 h-7 self-center text-center mb-4">
                         <FontAwesomeIcon icon={faMobileAndroid}/>
                     </div>
