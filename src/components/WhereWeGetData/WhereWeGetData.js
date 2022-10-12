@@ -11,8 +11,8 @@ import newsbtc from '../../assets/Logo/newsbtc.svg'
 import bitcoincom from '../../assets/Logo/bitcoincom.svg'
 import cryptoslate from '../../assets/Logo/cryptoslate.svg'
 import beincrypto from '../../assets/Logo/beincrypto.svg'
-import cointelegraph from '../../assets/Logo/cointelegraph.svg'
-import bitcoin from '../../assets/Logo/bitcoin.svg'
+// import cointelegraph from '../../assets/Logo/cointelegraph.svg'
+// import bitcoin from '../../assets/Logo/bitcoin.svg'
 
 
 

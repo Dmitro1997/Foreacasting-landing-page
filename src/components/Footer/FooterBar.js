@@ -20,7 +20,7 @@ function FooterBar() {
                         Monaco
                     </div>
                 </div>
-                <div className="self-center w-min-[300px] md:w-1/5 pl-5">
+                <div className="self-center w-min-[350px] md:w-1/5 pl-5">
                     <div className="text-lg mb-3">
                         Contact Us
                     </div>
