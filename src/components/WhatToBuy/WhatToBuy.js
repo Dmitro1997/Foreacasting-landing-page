@@ -7,10 +7,10 @@ function WhatToBuy() {
             <div className="self-center bg-gold-bricks w-full h-64">
             </div>
             <div className="self-center text-center">
-                <div className="mb-4 text-[40px] font-bold text-[#AE91DF]">
+                <div className="mb-4 text-xl whitespace-nowrap sm:text-[40px] font-bold text-[#AE91DF] text-center">
                     What to buy?
                 </div>
-                <div className="text-xl">
+                <div className="text-md sm:text-xl">
                     <b>FORECAST</b> well with <b>IamFuture</b>
                 </div>
             </div>
