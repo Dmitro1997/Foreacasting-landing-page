@@ -5,11 +5,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Economizes() {
     return (
         <div className="bg-[#030A11] text-center py-20 px-5">
-            <div className="text-[#AE91DF] text-[40px] font-bold pb-5">
+            <div className="text-[#AE91DF] text-[30px] md:text-[40px] font-bold pb-5">
                 IamFuture economizes
             </div>
-            <div className="flex justify-center gap-6">
-                <div className="bg-grey-card p-7 rounded-lg min-w-[20%]">
+            <div className="flex justify-center gap-6 flex-wrap">
+                <div className="bg-grey-card p-7 rounded-lg min-w-[300px] lg:min-w-[20%]">
                     <div className="rounded-md bg-[#AE91DF] w-7 h-7 self-center text-center mb-4">
                         <FontAwesomeIcon icon={faBook}/>
                     </div>
@@ -17,7 +17,7 @@ function Economizes() {
                         Your reading.
                     </div>
                 </div>
-                <div className="bg-grey-card p-7 rounded-lg min-w-[20%]">
+                <div className="bg-grey-card p-7 rounded-lg min-w-[300px] lg:min-w-[20%]">
                     <div className="rounded-md bg-[#AE91DF] w-7 h-7 self-center text-center mb-4">
                         <FontAwesomeIcon icon={faBrain}/>
                     </div>
@@ -25,7 +25,7 @@ function Economizes() {
                         Analyzing effort.
                     </div>
                 </div>
-                <div className="bg-grey-card p-7 rounded-lg min-w-[20%]">
+                <div className="bg-grey-card p-7 rounded-lg min-w-[300px] lg:min-w-[20%]">
                     <div className="rounded-md bg-[#AE91DF] w-7 h-7 self-center text-center mb-4">
                         <FontAwesomeIcon icon={faMobileAndroid}/>
                     </div>

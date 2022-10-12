@@ -7,8 +7,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function FooterBar() {
     return(
         <>
-            <div className="bg-[#030A11] text-white h-60 grid grid-cols-7 gap-6">
-                <div className="col-start-2 self-center">
+            <div className="bg-[#030A11] pt-10 text-white flex flex-wrap justify-center">
+                <div className="self-center w-min-[300px] md:w-1/5 text-center">
                     <img src={logo} alt="logo" className="w-[81px] h-[78px] inline-block" ></img>
                     <div>
                         Product of IamFuture  
@@ -20,7 +20,7 @@ function FooterBar() {
                         Monaco
                     </div>
                 </div>
-                <div className="self-center">
+                <div className="self-center w-min-[300px] md:w-1/5 pl-5">
                     <div className="text-lg mb-3">
                         Contact Us
                     </div>
@@ -54,7 +54,7 @@ function FooterBar() {
                         </div>
                     </div>
                 </div>
-                <div className="self-center">
+                <div className="self-center w-min-[300px] md:w-1/5 pl-10">
                     <div className="mb-1">
                         Home
                     </div>
@@ -71,8 +71,8 @@ function FooterBar() {
                         Forcast
                     </div>
                 </div>
-                <div className="col-span-2 self-center">
-                    <div className="text-left mb-2">
+                <div className="self-center min-w-[350px] mt-10  md:mt-0 md:w-2/5">
+                    <div className="text-center md:text-left mb-2">
                         Send me a message if you have inquiries about my tutorials or possible work. 
                     </div>
                     <div className="mx-10">

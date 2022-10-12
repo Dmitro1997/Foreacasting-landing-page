@@ -10,7 +10,7 @@ function Hero() {
                         IamFuture Crypto Trading Forecasting.
                     </h1>
                 </div>
-                <div className="block m-[-40px] md:hidden ">
+                <div className="block my-[-40px] md:hidden ">
                     <img src={heroImage} className="w-[50%]">
                     </img>
                 </div>

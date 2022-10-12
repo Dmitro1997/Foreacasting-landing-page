@@ -19,7 +19,7 @@ import bitcoin from '../../assets/Logo/bitcoin.svg'
 function WhereWeGetData() {
     return (
         <div className="bg-[#030A11] text-center py-20 px-10">
-            <div className="text-[#AE91DF] text-[40px] font-bold pb-10">
+            <div className="text-[#AE91DF] text-xl md:text-[40px] font-bold pb-10">
                 Where we get data
             </div>
             <div className="text-white pb-5">
@@ -27,17 +27,17 @@ function WhereWeGetData() {
                 <br/>
                 <b>Main Public Media</b> sources:
             </div>
-            <div className="flex justify-center flex-wrap gap-6">
-                <div className="bg-grey-card rounded-lg text-white flex px-10 py-5 min-w-[20%] max-w-[20%]">
-                    <div className="bg-[#AE91DF] w-12 h-12 rounded-lg pl-2 mr-4 flex">
+            <div className="flex justify-center flex-wrap gap-6 pb-5">
+                <div className="bg-grey-card rounded-lg text-white flex pl-8 py-5 lg:min-w-[20%] min-w-[300px] w-[20%]">
+                    <div className="bg-[#AE91DF] min-w-12 w-12 h-12 rounded-lg pl-2 mr-4 flex">
                         <img src={coinDeskLogo} className="w-8 h-8 self-center"></img>
                     </div>
                     <div className="self-center text-left">
                         Coindesk
                     </div>
                 </div>
-                <div className="bg-grey-card rounded-lg text-white flex px-10 py-5 min-w-[20%] max-w-[20%]">
-                    <div className="bg-[#AE91DF] w-12 h-12 rounded-lg pl-2 mr-4 flex">
+                <div className="bg-grey-card rounded-lg text-white flex pl-8 py-5 lg:min-w-[20%] min-w-[300px] w-[20%]">
+                    <div className="bg-[#AE91DF] min-w-12 w-12 h-12 rounded-lg pl-2 mr-4 flex">
                         <img src={financialTimes} className="w-8 h-8 self-center"></img>
                     </div>
                     <div className="self-center text-left">
@@ -46,31 +46,33 @@ function WhereWeGetData() {
                         Times
                     </div>
                 </div>
-                <div className="bg-grey-card rounded-lg text-white flex px-10 py-5 min-w-[20%] max-w-[20%]">
-                    <div className="bg-[#AE91DF] w-12 h-12 rounded-lg pl-2 mr-4 flex">
+                <div className="bg-grey-card rounded-lg text-white flex pl-8 py-5 lg:min-w-[20%] min-w-[300px] w-[20%]">
+                    <div className="bg-[#AE91DF] min-w-12 w-12 h-12 rounded-lg pl-2 mr-4 flex">
                         <img src={cryptopolitan} className="w-8 h-8 self-center"></img>
                     </div>
                     <div className="self-center text-left">
                         Cryptopolitan
                     </div>
                 </div>
-                <div className="bg-grey-card rounded-lg text-white flex px-10 py-5 min-w-[20%] max-w-[20%]">
-                    <div className="bg-[#AE91DF] w-12 h-12 rounded-lg pl-2 mr-4 flex">
+                <div className="bg-grey-card rounded-lg text-white flex pl-8 py-5 lg:min-w-[20%] min-w-[300px] w-[20%]">
+                    <div className="bg-[#AE91DF] min-w-12 w-12 h-12 rounded-lg pl-2 mr-4 flex">
                         <img src={dappradar} className="w-8 h-8 self-center"></img>
                     </div>
                     <div className="self-center text-left">
                         Dappradar
                     </div>
                 </div>
-                <div className="bg-grey-card rounded-lg text-white flex px-10 py-5 min-w-[20%] max-w-[20%]">
-                    <div className="bg-[#AE91DF] w-12 h-12 rounded-lg pl-2 mr-4 flex">
+            </div>
+            <div className="flex justify-center flex-wrap gap-6 pb-5">
+                <div className="bg-grey-card rounded-lg text-white flex pl-8 py-5 lg:min-w-[20%] min-w-[300px] w-[20%]">
+                    <div className="bg-[#AE91DF] min-w-12 w-12 h-12 rounded-lg pl-2 mr-4 flex">
                         <img src={coinpedia} className="w-8 h-8 self-center"></img>
                     </div>
                     <div className="self-center text-left">
                         Coinpedia
                     </div>
                 </div>
-                <div className="bg-grey-card rounded-lg text-white flex px-10 py-5 min-w-[20%] max-w-[20%]">
+                <div className="bg-grey-card rounded-lg text-white flex pl-8 py-5 lg:min-w-[20%] min-w-[300px] w-[20%]">
                     <div className="bg-[#AE91DF] w-12 h-12 rounded-lg pl-2 mr-4 flex">
                         <img src={utoday} className="w-8 h-8 self-center"></img>
                     </div>
@@ -78,7 +80,7 @@ function WhereWeGetData() {
                         U.Today
                     </div>
                 </div>
-                <div className="bg-grey-card rounded-lg text-white flex px-10 py-5 min-w-[20%] max-w-[20%]">
+                <div className="bg-grey-card rounded-lg text-white flex pl-8 py-5 lg:min-w-[20%] min-w-[300px] w-[20%]">
                     <div className="bg-[#AE91DF] w-12 h-12 rounded-lg pl-2 mr-4 flex">
                         <img src={bitcoinmagazine} className="w-8 h-8 self-center"></img>
                     </div>
@@ -88,7 +90,7 @@ function WhereWeGetData() {
                         Magazine
                     </div>
                 </div>
-                <div className="bg-grey-card rounded-lg text-white flex px-10 py-5 min-w-[20%] max-w-[20%]">
+                <div className="bg-grey-card rounded-lg text-white flex pl-8 py-5 lg:min-w-[20%] min-w-[300px] w-[20%]">
                     <div className="bg-[#AE91DF] w-12 h-12 rounded-lg pl-2 mr-4 flex">
                         <img src={forbes} className="w-8 h-8 self-center"></img>
                     </div>
@@ -96,7 +98,9 @@ function WhereWeGetData() {
                         Forbes
                     </div>
                 </div>
-                <div className="bg-grey-card rounded-lg text-white flex px-10 py-5 min-w-[20%] max-w-[20%]">
+            </div>
+            <div className="flex justify-center flex-wrap gap-6 pb-5">
+                <div className="bg-grey-card rounded-lg text-white flex pl-8 py-5 lg:min-w-[20%] min-w-[300px] w-[20%]">
                     <div className="bg-[#AE91DF] w-12 h-12 rounded-lg pl-2 mr-4 flex">
                         <img src={newsbtc} className="w-8 h-8 self-center"></img>
                     </div>
@@ -104,7 +108,7 @@ function WhereWeGetData() {
                         NewsBTC
                     </div>
                 </div>
-                <div className="bg-grey-card rounded-lg text-white flex px-10 py-5 min-w-[20%] max-w-[20%]">
+                <div className="bg-grey-card rounded-lg text-white flex pl-8 py-5 lg:min-w-[20%] min-w-[300px] w-[20%]">
                     <div className="bg-[#AE91DF] w-12 h-12 rounded-lg pl-2 mr-4 flex">
                         <img src={bitcoincom} className="w-8 h-8 self-center"></img>
                     </div>
@@ -112,7 +116,7 @@ function WhereWeGetData() {
                         Bitcoin.com
                     </div>
                 </div>
-                <div className="bg-grey-card rounded-lg text-white flex px-10 py-5 min-w-[20%] max-w-[20%]">
+                <div className="bg-grey-card rounded-lg text-white flex pl-8 py-5 lg:min-w-[20%] min-w-[300px] w-[20%]">
                     <div className="bg-[#AE91DF] w-12 h-12 rounded-lg pl-2 mr-4 flex">
                         <img src={cryptoslate} className="w-8 h-8 self-center"></img>
                     </div>
@@ -120,7 +124,7 @@ function WhereWeGetData() {
                         Cryptoslate
                     </div>
                 </div>
-                <div className="bg-grey-card rounded-lg text-white flex px-10 py-5 min-w-[20%] max-w-[20%]">
+                <div className="bg-grey-card rounded-lg text-white flex pl-8 py-5 lg:min-w-[20%] min-w-[300px] w-[20%]">
                     <div className="bg-[#AE91DF] w-12 h-12 rounded-lg pl-2 mr-4 flex">
                         <img src={beincrypto} className="w-8 h-8 self-center"></img>
                     </div>
@@ -128,7 +132,9 @@ function WhereWeGetData() {
                         BeinCrypto
                     </div>
                 </div>
-                <div className="bg-grey-card rounded-lg text-white flex px-10 py-5 min-w-[20%] max-w-[20%]">
+            </div>
+            <div className="flex justify-center flex-wrap gap-6">
+                {/* <div className="bg-grey-card rounded-lg text-white flex pl-8 py-5 lg:min-w-[20%] min-w-[300px] w-[20%]">
                     <div className="bg-[#AE91DF] w-12 h-12 rounded-lg pl-2 mr-4 flex">
                         <img src={cointelegraph} className="w-8 h-8 self-center"></img>
                     </div>
@@ -145,7 +151,7 @@ function WhereWeGetData() {
                         <br/>
                         Various Launchpads, cryptoplatforms updates, press releses.
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
