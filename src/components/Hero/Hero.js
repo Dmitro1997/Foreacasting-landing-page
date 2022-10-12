@@ -14,7 +14,7 @@ function Hero() {
                     <img src={heroImage} className="w-[50%]">
                     </img>
                 </div>
-                <div className="text-white pl-6 text-md md:text-lg">
+                <div className="text-white pl-6 text-md md:text-lg mt-5">
                     <ul className="list-disc">
                         <li className="sm:whitespace-nowrap">
                             Over 21000 cryptocurrencies in existence.
