@@ -99,3 +99,10 @@ code {
   background-size: contain;
   background-position: bottom;
 }
+
+.bg-contact-img{
+  background-image: url('./assets/3DImages/Rocket.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
