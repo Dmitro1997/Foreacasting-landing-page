@@ -1,4 +1,5 @@
 import React from "react";
+import Rocket from '../../assets/3DImages/Rocket.png';
 
 function Contact() {
     return(
@@ -17,7 +18,8 @@ function Contact() {
                         <button className="bg-[#030A11] px-4 py-1 rounded-full text-white text-sm md:text-lg">Send Message</button>
                     </div>
                 </div>
-                <div className="hidden md:w-[50%] bg-contact-img md:block rounded-r-lg">
+                <div className="hidden md:w-[50%] md:block rounded-r-lg">
+                    <img src={Rocket} className="md:w-full h-full" ></img>
                 </div>
             </div>
         </div>
