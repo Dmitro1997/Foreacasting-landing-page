@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function FooterBar() {
     return(
         <>
-            <div className="bg-[#030A11] pt-10 text-white flex flex-wrap justify-center gap-5 sm:gap-0">
+            <div className="bg-[#030A11] pt-10 pb-5 text-white flex flex-wrap justify-center gap-5 sm:gap-0">
                 <div className="self-center w-min-[300px] md:w-1/5 text-center">
                     <img src={logo} alt="logo" className="w-[81px] h-[78px] inline-block" ></img>
                     <div>
@@ -85,7 +85,7 @@ function FooterBar() {
                     </div>
                 </div>
             </div>
-            <div className="bg-[#030A11] text-white flex justify-between ">
+            <div className="bg-[#030A11] text-white flex justify-between px-5 sm:px-10 md:px-0 lg:px-5">
                 <div className="w-[20%] self-center pl-2 sm:pl-5">
                     <p className="text-[12px] whitespace-normal sm:whitespace-nowrap">
                         @2022 All Rights Reserved

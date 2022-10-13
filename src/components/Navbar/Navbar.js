@@ -29,7 +29,7 @@ function Navbar() {
                         <div className={`cursor-pointer ${pathname == '/forecast' ? "text-[#AE91DF]" : "" }`} onClick={ () => { changeMenu('forecast') } }>Forecast</div>
                     </div>
                     <div className="hidden lg:block">
-                        <button className="contact-us px-5 py-2">
+                        <button className="contact-us px-5 py-2" onClick={()=>{changeMenu('contact')}}>
                             Contact us &nbsp;{`->`}
                         </button>
                     </div>

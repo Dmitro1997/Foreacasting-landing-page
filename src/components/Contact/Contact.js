@@ -4,7 +4,7 @@ import Rocket from '../../assets/3DImages/Rocket.png';
 function Contact() {
     return(
         <div className="bg-[#030A11] px-[15%] py-[5%]">
-            <div className="rounded-lg flex w-full">
+            <div className="rounded-lg flex w-full max-h-[500px]">
                 <div className="w-full rounded-lg md:rounded-r-none md:w-[50%] py-10 px-5 md:py-16 md:px-10 flex flex-col bg-internatinal-family text-center">
                     <div className="text-black font-bold text-xl md:text-[40px] text-center">
                         Contact Us
