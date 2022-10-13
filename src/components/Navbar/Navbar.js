@@ -15,7 +15,7 @@ function Navbar() {
 
     return (
         <div className="bg-[#030A11] text-white h-32 flex justify-between gap-4">
-            <div className="inline-block pl-6 self-center">
+            <div className="inline-block pl-4 sm:pl-16 self-center">
                 <img src={logo} alt="logo" className="w-[81px] inline-block" ></img>
                 <span className="hidden md:inline">IamFuture</span>
             </div>
