@@ -9,9 +9,9 @@ function Contact() {
                         Contact Us
                     </div>
                     <div className="flex flex-col relative py-5 gap-6 items-center">
-                        <input type="text" placeholder="Name" className="rounded-md w-[90%] h-10 px-3"></input>
-                        <input type="email" placeholder="Email Address" className="rounded-md w-[90%] h-10 px-3"></input>
-                        <textarea rows="4" className="w-[90%] rounded-md px-3 py-3" placeholder="Message"></textarea>  
+                        <input type="text" placeholder="Name" className="rounded-md w-[90%] h-10 px-3 focus:outline-white"></input>
+                        <input type="email" placeholder="Email Address" className="rounded-md w-[90%] h-10 px-3 focus:outline-white"></input>
+                        <textarea rows="4" className="w-[90%] rounded-md px-3 py-3 focus:outline-white" placeholder="Message"></textarea>  
                     </div>
                     <div>
                         <button className="bg-[#030A11] px-4 py-1 rounded-full text-white text-sm md:text-lg">Send Message</button>
