@@ -71,7 +71,7 @@ function FooterBar() {
                         Forcast
                     </div>
                 </div>
-                <div className="self-center min-w-[300px] mt-10  md:mt-0 md:w-2/5 mb-5 sm:mb-0">
+                <div className="self-center min-w-[300px] mt-10  md:mt-0 md:w-2/5 mb-5">
                     <div className="text-center mb-2 px-5 sm:px-3">
                         Send me a message if you have inquiries about my tutorials or possible work. 
                     </div>
@@ -87,7 +87,7 @@ function FooterBar() {
             </div>
             <div className="bg-[#030A11] text-white flex justify-between ">
                 <div className="w-[20%] self-center pl-2 sm:pl-5">
-                    <p className="text-[12px] sm:whitespace-nowrap">
+                    <p className="text-[12px] whitespace-normal sm:whitespace-nowrap">
                         @2022 All Rights Reserved
                     </p>
                 </div>
