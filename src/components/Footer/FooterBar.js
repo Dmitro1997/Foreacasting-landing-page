@@ -42,7 +42,12 @@ function FooterBar() {
                             <FontAwesomeIcon icon={faEnvelope} />
                         </div>
                         <div>
-                            future@iamfuture.biz
+                            <div>
+                                Admin@iamfuture.biz
+                            </div>
+                            <div>
+                                Future@iamfuture.biz
+                            </div>
                         </div>
                     </div>
                     <div className="flex">

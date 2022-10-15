@@ -9,7 +9,7 @@ function AboutCompany() {
         <div className="bg-[#030A11] bg-about-company py-10 md:py-20">
             <div className=" grid grid-cols-1 md:grid-cols-5 text-white">
                 <div className="md:col-span-4 px-5 sm:px-20 md:pr-0 text-lg">
-                    <span className="text-[#AE91DF]">IamFuture</span> is the unique concept of intuitive trading recommendation system invented in Monaco by <span className="text-[#AE91DF]">Maya Bernaia</span> www.IamFuture.life and developed by <span className="text-[#AE91DF]">Mr. Omar Hammemi</span>.
+                    <span className="text-[#AE91DF]">IamFuture</span> is the unique concept of intuitive trading recommendation system invented in Monaco by <span className="text-[#AE91DF]">Maya Bernaia</span> www.IamFuture.life and developed by <span className="text-[#AE91DF]">Mr. Omar Hammemi</span> and <span className="text-[#AE91DF]">IamFuture family</span>.
                 </div>
                 <div className="flex justify-center md:hidden">
                     <img src={GoldCoin} className="w-5/6 sm:w-3/6" ></img>
