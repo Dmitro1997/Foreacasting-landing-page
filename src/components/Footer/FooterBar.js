@@ -85,13 +85,11 @@ function FooterBar() {
                     </div>
                 </div>
             </div>
-            <div className="bg-[#030A11] text-white flex justify-between px-5 sm:px-10 md:px-0 lg:px-5">
-                <div className="w-[20%] self-center pl-2 sm:pl-5">
-                    <p className="text-[12px] whitespace-normal sm:whitespace-nowrap">
-                        @2022 All Rights Reserved
-                    </p>
+            <div className="bg-[#030A11] text-white text-center">
+                <div className="self-center text-[12px] whitespace-normal sm:whitespace-nowrap">
+                    @2022 All Rights Reserved
                 </div>
-                <div className="w-3/6 sm:w-2/5">
+                {/* <div className="w-3/6 sm:w-2/5">
                     <div className="flex justify-between gap-6 text-[12px]">
                         <div className="text-left">
                             Privacy Policy
@@ -103,7 +101,7 @@ function FooterBar() {
                             Legal
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     )

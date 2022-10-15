@@ -18,7 +18,7 @@ import beincrypto from '../../assets/Logo/beincrypto.svg'
 
 function WhereWeGetData() {
     return (
-        <div className="bg-[#030A11] text-center py-20 px-10">
+        <div className="bg-[#030A11] bg-ellipse-left text-center py-20 px-10">
             <div className="text-[#AE91DF] text-xl md:text-[40px] font-bold pb-10">
                 Where we get data
             </div>

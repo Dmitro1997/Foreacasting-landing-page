@@ -8,7 +8,7 @@ function Provides() {
         <div className="bg-internatinal-family py-20">
             <div className="grid grid-cols-1 lg:grid-cols-5 mt-8">
                 <div className="lg:col-span-3 ">
-                    <div className="mb-3 lg:col-span-3 lg:pl-20 text-[30px] lg:text-[40px] text-[#2081E2] text-center font-bold">
+                    <div className="mb-3 lg:col-span-3 lg:pl-20 text-[30px] lg:text-[40px] text-[#AE91DF] text-center font-bold">
                         IamFuture provides you more mobility and flexibility
                     </div>
                     <div className="font-semibold text-center mb-5 text-md md:text-lg">
@@ -17,7 +17,7 @@ function Provides() {
                     <div className="text-md flex flex-col  md:text-lg">
                         <div className="w-5/6 min-h-[80px] sm:h-24 px-10 mb-5 bg-grey-card rounded-lg border self-center flex">
                             <div className="self-center pr-5">
-                                <div className="rounded bg-[#2081E2] w-8 h-8 self-center text-center">
+                                <div className="rounded bg-[#AE91DF] w-8 h-8 self-center text-center">
                                     <FontAwesomeIcon icon={faWarning}/>
                                 </div>
                             </div>
@@ -27,7 +27,7 @@ function Provides() {
                         </div>
                         <div className="w-5/6 min-h-[80px] sm:h-24 px-10 mb-5 bg-grey-card rounded-lg border self-center flex">
                             <div className="self-center pr-5">
-                                <div className="rounded bg-[#2081E2] w-8 h-8 self-center text-center">
+                                <div className="rounded bg-[#AE91DF] w-8 h-8 self-center text-center">
                                     <FontAwesomeIcon icon={faUserFriends}/>
                                 </div>
                             </div>
@@ -38,7 +38,7 @@ function Provides() {
                         </div>
                         <div className="w-5/6 min-h-[80px] sm:h-24 px-10 mb-5 bg-grey-card rounded-lg border self-center flex">
                             <div className="self-center pr-5">
-                                <div className="rounded bg-[#2081E2] w-8 h-8 self-center text-center">
+                                <div className="rounded bg-[#AE91DF] w-8 h-8 self-center text-center">
                                     <FontAwesomeIcon icon={faChartColumn}/>
                                 </div>
                             </div>
@@ -48,7 +48,7 @@ function Provides() {
                         </div>
                         <div className="w-5/6 min-h-[80px] sm:h-24 px-10 mb-5 bg-grey-card rounded-lg border self-center flex">
                             <div className="self-center pr-5">
-                                <div className="rounded bg-[#2081E2] w-8 h-8 self-center text-center">
+                                <div className="rounded bg-[#AE91DF] w-8 h-8 self-center text-center">
                                     <FontAwesomeIcon icon={faChartLine}/>
                                 </div>
                             </div>

@@ -8,7 +8,7 @@ import Omar from '../../assets/Photos/Omar.png';
 
 function AboutUs() {
     return (
-        <div className="bg-[#030A11] text-center py-20">
+        <div className="bg-[#030A11] bg-about-us text-center py-20">
             <div className="text-[#AE91DF] text-xl md:text-[40px] font-bold mb-10">
                 We Are
             </div>

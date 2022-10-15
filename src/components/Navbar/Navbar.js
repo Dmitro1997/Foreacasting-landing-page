@@ -15,7 +15,7 @@ function Navbar() {
 
     return (
         <div className="bg-[#030A11] text-white h-32 flex justify-between gap-4">
-            <div className="inline-block pl-4 sm:pl-16 self-center">
+            <div className="inline-block pl-4 sm:pl-16 self-center cursor-pointer" onClick={()=>{changeMenu('')}}>
                 <img src={logo} alt="logo" className="w-[81px] inline-block" ></img>
                 <span className="hidden md:inline">IamFuture</span>
             </div>
@@ -29,8 +29,8 @@ function Navbar() {
                         <div className={`cursor-pointer ${pathname == '/forecast' ? "text-[#AE91DF]" : "" }`} onClick={ () => { changeMenu('forecast') } }>Forecast</div>
                     </div>
                     <div className="hidden lg:block">
-                        <button className="contact-us px-5 py-2" onClick={()=>{changeMenu('contact')}}>
-                            Contact us &nbsp;{`->`}
+                        <button className="contact-us px-5 py-2" onClick={()=>{changeMenu('signup')}}>
+                            Sign Up &nbsp;{`->`}
                         </button>
                     </div>
                 </div>

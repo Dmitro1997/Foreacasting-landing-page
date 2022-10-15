@@ -1,9 +1,15 @@
 import React from "react";
-import heroImage from '../../assets/3DImages/HeroImage.png'
+import heroImage from '../../assets/3DImages/HeroImage.png';
+import { useHistory } from "react-router-dom";
 
 function Hero() {
+    const history = useHistory();
+
+    const changeMenu = (url) => {
+        history.push(`/${url}`);
+    }
     return (
-        <div className="bg-[#030A11] grid grid-cols-1 md:grid-cols-5 gap-6 ">
+        <div className="bg-[#030A11] grid grid-cols-1 md:grid-cols-5 gap-6 pb-10">
             <div className="md:col-span-3 self-center pl-4 sm:pl-16">
                 <div className="self-center md:mb-4">
                     <h1 className="hero-title font-bold text-[40px] md:text-[60px] lg:text-[72px]">
@@ -30,11 +36,11 @@ function Hero() {
                 <div className="mt-10">
                     <div className="flex w-64 sm:w-96 text-white border-white border rounded-full h-12 self-center">
                         <div className="float-left self-center pl-3">
-                            <input type="email" className="bg-transparent w-32 sm:w-64" placeholder="Enter Email Address"></input>
+                            <input type="email" className="bg-transparent focus:outline-none w-32 sm:w-64" placeholder="Enter Email Address"></input>
                         </div>
                         <div className="float-right self-center pl-1">
-                            <button className="contact-us px-3 py-1">
-                                SUBSCRIBE
+                            <button className="contact-us px-6 py-1" onClick={()=>{changeMenu('signup')}}>
+                                Sign Up
                             </button>
                         </div>
                     </div>

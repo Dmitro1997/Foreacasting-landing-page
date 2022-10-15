@@ -6,6 +6,8 @@ import ContactPage from './pages/contact';
 import MarketPage from './pages/recommend';
 import RecommendPage from './pages/recommend';
 import ForecastPage from './pages/forecast';
+import SignInPage from './pages/signin';
+import SignUpPage from './pages/signup';
 
 function App() {
   return(
@@ -16,6 +18,8 @@ function App() {
           <Route exact path="/market" component={MarketPage} />
           <Route exact path="/recommend" component={RecommendPage} />
           <Route exact path="/forecast" component={ForecastPage} />
+          <Route exact path="/signup" component={SignUpPage} />
+          <Route exact path="/signin" component={SignInPage} />
       </Switch>
     </Router>
   )

@@ -17,8 +17,8 @@ function Body() {
             <AboutCompany></AboutCompany>
             <InternationalFamily></InternationalFamily>
             <AboutUs></AboutUs>
-            <WhereWeGetData></WhereWeGetData>
             <OurGoals></OurGoals>
+            <WhereWeGetData></WhereWeGetData>
             <Economizes></Economizes>
             <Provides></Provides>
         </div>

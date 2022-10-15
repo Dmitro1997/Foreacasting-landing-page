@@ -72,10 +72,43 @@ code {
 }
 
 .bg-buy{
-  background-image: url('./assets/3DImages/Buy.png');
+  background-image: url('./assets/3DImages/what-to-buy.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+}
+
+.bg-about-company {
+  background-image: url('./assets/Backgrounds/ellipse.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+
+.bg-ellipse-right {
+  background-image: url('./assets/Backgrounds/ellipse-reverse.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.bg-ellipse-left {
+  background-image: url('./assets/Backgrounds/ellipse.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+
+.white-card{
+  background: linear-gradient(111.49deg, rgba(255, 255, 255, 0.4) -8.95%, rgba(255, 255, 255, 0.01) 114%);
+  backdrop-filter: blur(25px);
+}
+
+.bg-about-us{
+  background-image: url('./assets/Backgrounds/ellipse.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
 }
 
 .bg-company-img{
@@ -90,7 +123,8 @@ code {
   backdrop-filter: blur(25px);
 }
 .bg-internatinal-family{
-  background: linear-gradient(88.61deg, #C691DF 2.38%, #CBB3DE 48.85%, #9BB7E1 98.32%);
+  /* background: linear-gradient(88.61deg, #C691DF 2.38%, #CBB3DE 48.85%, #9BB7E1 98.32%); */
+  background: linear-gradient(92.51deg, #AAC9F6 0%, #C5FAFD 49.41%, #E7C2F9 98.58%);
 }
 
 .bg-provides-img{
@@ -105,4 +139,32 @@ code {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.bg-sign-in {
+  /* background: linear-gradient(88.61deg, #E7C2F9 2.38%, rgba(197, 250, 253, 0.4) 48.85%, #AAC9F6 98.32%); */
+  background: linear-gradient(91.74deg, rgba(254, 218, 254, 0.8) 46.78%, rgba(169, 237, 255, 0.8) 68.5%, rgba(32, 129, 226, 0.8) 96.1%);
+  /* filter: blur(32px); */
+}
+
+.signup-bg{
+  background-image: url('./assets/Backgrounds/signup.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-color: white;
+}
+
+.signin-bg{
+  background-image: url('./assets/Backgrounds/signin.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-color: white;
+}
+
+.bg-what-to-buy {
+  /* background-color: rgba(32, 129, 226, 0.8); */
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-image: url('./assets/Backgrounds/what-to-buy.png');
+  background: linear-gradient(91.74deg, rgba(32, 129, 226, 0.8) -16.63%, rgba(169, 237, 255, 0.8) 39.15%, rgba(254, 218, 254, 0.8) 96.1%);
 }

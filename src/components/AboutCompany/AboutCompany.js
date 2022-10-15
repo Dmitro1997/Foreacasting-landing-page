@@ -6,7 +6,7 @@ import GoldCoin from '../../assets/3DImages/GoldCoin.png';
 
 function AboutCompany() {
     return(
-        <div className="bg-[#030A11] bg-about-company py-1 md:py-20">
+        <div className="bg-[#030A11] bg-about-company py-10 md:py-20">
             <div className=" grid grid-cols-1 md:grid-cols-5 text-white">
                 <div className="md:col-span-4 px-5 sm:px-20 md:pr-0 text-lg">
                     <span className="text-[#AE91DF]">IamFuture</span> is the unique concept of intuitive trading recommendation system invented in Monaco by <span className="text-[#AE91DF]">Maya Bernaia</span> www.IamFuture.life and developed by <span className="text-[#AE91DF]">Mr. Omar Hammemi</span>.
