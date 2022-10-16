@@ -4,6 +4,7 @@ import Dmytro from '../../assets/Photos/Dmytro.png';
 import Frederic from '../../assets/Photos/Frederic.png';
 import Jeta from '../../assets/Photos/Jeta.png';
 import Omar from '../../assets/Photos/Omar.png';
+import Niyaz from '../../assets/Photos/Niyaz.png';
 
 
 function AboutUs() {
@@ -35,7 +36,7 @@ function AboutUs() {
                             Omar
                         </div>
                         <div className=" italic text-white text-md text-center px-6">
-                           Data Scientist, Fintech Expert, responsible for forecasting model building.
+                            MLops engineer and  Fintech Expert, responsible for forecasting model building.
                         </div>
                     </div>
                 </div>
@@ -95,7 +96,7 @@ function AboutUs() {
                 </div>
                 <div className="bg-grey-card rounded-md inline-block">
                     <div className="">
-                        <img src={defaultPhoto} className="w-full px-6 py-5 rounded-[35px]"></img>
+                        <img src={Niyaz} className="w-full px-6 py-5 rounded-[35px]"></img>
                     </div>
                     <div className="mb-5">
                         <div className="text-[#AE91DF] text-lg font-bold">
