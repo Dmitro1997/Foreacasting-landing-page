@@ -36,7 +36,7 @@ function AboutUs() {
                             Omar
                         </div>
                         <div className=" italic text-white text-md text-center px-6">
-                            MLops engineer and  Fintech Expert, responsible for forecasting model building.
+                            MLops engineer and  Fintech Expert
                         </div>
                     </div>
                 </div>
